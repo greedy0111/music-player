@@ -12,7 +12,7 @@ const next = document.querySelector('.btnNext');
 for (let el of lists) {
     let pic = el.querySelector(".pic");
     el.style.transform = `rotate(${deg * i}deg) translateY(-100vh)`;
-    pic.style.backgroundImage = `url(../img/member${i + 1}.jpg)`;
+    pic.style.backgroundImage = `url(./img/member${i + 1}.jpg)`;
     i++;
 
     let play = el.querySelector(".play");
